@@ -3,7 +3,7 @@ import { ethers } from "ethers";
 import http from "http";
 
 const url =
-  "https://api.coingecko.com/api/v3/coins/tether/market_chart?vs_currency=usd&days=1";
+  "https://api.coingecko.com/api/v3/coins/coq-inu/market_chart?vs_currency=usd&days=1";
 
 const fetchPrice = async () => {
   const resp = await fetch(url);
